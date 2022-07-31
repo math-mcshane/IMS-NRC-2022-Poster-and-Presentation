@@ -1,0 +1,100 @@
+---
+#----ESSENTIALS----#
+title: "\\LARGE\\textit{Scissors beats Rock} \\& other Failures of Transitive Models using Paired Comparisons"
+author: "\\contour{black}{\\textbf{Ryan McShane}}"
+affiliation: "Amherst College"
+#----FONT STYLE----#
+font_size: "30pt" #sets '\normalsize' (sizes of the title and sections headings will adjust based on it)
+font_family: "palatino" # choose from typical latex fonts (example: "palatino")
+body_textsize: "normalsize"
+bibliography_size: "tiny"
+bibliography_textsize: "tiny" #UNKNOWN
+titlebox_shape: "uphill"
+title_textsize: "normalsize"
+author_textsize: "LARGE"
+affiliation_textsize: "normalsize"
+titlebox_borderwidth: "2mm"
+
+#----COLOURS----#
+
+#Background/ Line Colours
+title_bgcol: "000000"  #Hex colour for background of poster title section (default is blue)
+titlebox_bgcol: "311a4d" # UNKNOWN
+titlebox_bordercol: "777777" #UNKNOWN
+body_bgcol: "FFFFFF" #UNKNOWN
+sectitle_bgcol: "444444" #UNKNOWN
+sectitle_bordercol: "111111" #UNKNOWN
+sectitle_textcol: "FFFFFF" #UNKNOWN
+poster_bgcol: "ffffff" #colour of the poster main background
+cite_col: "CC0000" #colour of ciation elements
+url_col: "008080" #colour of url links
+link_col: "ffffff" #colour of other links within the poster
+columnline_col: "000000" #colour 
+header_bgcol: "008080"
+
+#Text Colours
+title_textcol: "FFFFFF" #colour of title text
+author_textcol: "ffffff" # Colour of author text
+affiliation_textcol: "FFFFFF" # Colour of affiliation text
+body_textcol: "000000" # Colour of main text in the body of poster
+header_textcol: "690F8C" # Colour of the poster header titles
+footnote_textcol: "000000" # Colour of footnote text if used
+
+#----POSTER SIZE & COLUMN FORMATTING----#
+poster_height: "24in" # height in inches of poster
+poster_width: "36in" # width in inches of poster
+column_numbers: 3 # Number of columns that the poster has
+column_margins: "20mm" # Margin spacing for columns
+columnline_width: "1mm" #UNKNOWN
+sectitle_borderwidth: "1mm" #UNKNOWN
+sectitle_boxshape: "uphill"
+
+#----LOGO----#
+logoleft_name: "logo/AmherstCollege-Seal_WhiteRGB.pdf"
+logoleft_width: "3in"
+logoleft_xshift: ".15in"
+logoleft_yshift: ".35in"
+logoright_name: "logo/AmherstCollege-Seal_WhiteRGB.pdf"
+logoright_width: "3in"
+logoright_xshift: "-.15in"
+logoright_yshift: ".35in"
+
+#----OTHER----#
+bibliography: references # name of the .bib file used for referencing
+output: posterdownLaTeX::posterdown_latex
+
+header-includes: 
+ # - \usepackage{pgfmath-xfp}
+ # - \usepackage{tikz}
+ # - \usetikzlibrary{fit, graphs, graphs.standard}
+ - \usepackage[outline]{contour}
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = 'asis',fig.height = 3.5, fig.width = 4.5, out.width = "100%", warning = FALSE, fig.align = 'center', message = FALSE, dev='cairo_pdf')
+library(readr)
+library(kableExtra)
+```
+
+
+# Conclusions
+
+TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT text text TEXT 
+
+text^[@KendallSmith1940]
+
+<!--- This prints the bibliography and affiliations as a single floating figure to allow for appropriate vertical spacing -->
+\vspace{-15mm}
+\begin{figure}
+\printbibliography 
+\end{figure}
+\vspace{-60mm}
+
+<!--- Add the footnote and the QR code to the GitHub repo, with the raisebox argument adjusting the image vertical centering -->
+\footnote{\newline This poster was created using my revived version of the `posterdownLaTeX` package. The code needed to produce this poster can be found at \textbf{github.com/math-mcshane/IMS-NRC-2022-Poster-and-Presentation}\raisebox{-.4\height}{\includegraphics[clip=true,width = 4cm]{Figures/GitHubQR}}}
+
+
+
+
+
+

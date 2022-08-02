@@ -2,7 +2,7 @@
 #----ESSENTIALS----#
 title: "\\huge \\textbf{\\textit{Scissors beats Rock} \\Large \\&  other failures of Transitive Models using Paired Comparisons}"
 author: "\\contour{black}{\\textbf{Ryan P. A. McShane, Ph.D.}}"
-affiliation: "Former Visiting Assistant Professor of Statistics, Amherst College"
+affiliation: "Former Visiting Assistant Professor of Statistics, Amherst College $\\;$ \\faTwitter  \\quad   \\@$\\text {\\underline{math\\_mcshane}}$ $\\;$ \\faGithub \\quad \\@$\\text{\\underline{math-mcshane}}$ $\\;$ \\vspace{-5mm}{\\includegraphics[width = 25pt]{images/Circular Triad.png}} \\quad $\\text{\\underline{ryanmcshane.com}}$"
 #----FONT STYLE----#
 font_size: "30pt" #sets '\normalsize' (sizes of the title and sections headings will adjust based on it)
 font_family: "palatino" # choose from typical latex fonts (example: "palatino")
@@ -77,7 +77,7 @@ header-includes:
  - \definecolor{codeletter}{HTML}{002c6b}
  - \let\textttOrig\texttt
  - \renewcommand{\texttt}[1]{\textttOrig{\textbf{\textcolor{codeletter}{\colorbox{codegray}{#1}}}}}
- - \usepackage{fontspec, bm}
+ - \usepackage{fontspec, bm, fontawesome5}
  - \setmainfont{Jost-Regular}[Extension=.ttf,BoldFont=Jost-Bold,ItalicFont=Jost-Italic,BoldItalicFont=Jost-BoldItalic]
 ---
 

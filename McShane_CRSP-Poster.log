@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.7.28)  2 AUG 2022 00:04
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.7.28)  2 AUG 2022 00:13
  restricted system commands enabled.
 **McShane_CRSP-Poster.tex
 (./McShane_CRSP-Poster.tex
@@ -1726,29 +1726,29 @@ Package luatex.def Info: images/LlullExample.png  used on input line 304.
 <images/WSTransitivity.png, id=73, 953.4822pt x 222.5916pt>
 File: images/WSTransitivity.png Graphic file (type png)
 <use images/WSTransitivity.png>
-Package luatex.def Info: images/WSTransitivity.png  used on input line 334.
+Package luatex.def Info: images/WSTransitivity.png  used on input line 320.
 (luatex.def)             Requested size: 798.7134pt x 186.46619pt.
 <images/SPR.png, id=76, 277.9986pt x 277.9986pt>
 File: images/SPR.png Graphic file (type png)
 <use images/SPR.png>
-Package luatex.def Info: images/SPR.png  used on input line 414.
-(luatex.def)             Requested size: 143.76523pt x 143.7711pt.
+Package luatex.def Info: images/SPR.png  used on input line 400.
+(luatex.def)             Requested size: 159.74023pt x 159.74614pt.
 <images/Chain_Graph.png, id=78, 873.153pt x 155.49pt>
 File: images/Chain_Graph.png Graphic file (type png)
 <use images/Chain_Graph.png>
-Package luatex.def Info: images/Chain_Graph.png  used on input line 468.
+Package luatex.def Info: images/Chain_Graph.png  used on input line 454.
 (luatex.def)             Requested size: 718.83717pt x 128.01271pt.
 <images/CRSP_differences_Graph.png, id=79, 746.79pt x 271.998pt>
 File: images/CRSP_differences_Graph.png Graphic file (type png)
 <use images/CRSP_differences_Graph.png>
-Package luatex.def Info: images/CRSP_differences_Graph.png  used on input line 478.
+Package luatex.def Info: images/CRSP_differences_Graph.png  used on input line 464.
 (luatex.def)             Requested size: 718.83717pt x 261.82896pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 492.
+(Font)              <17.28> on input line 478.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 492.
+(Font)              <12> on input line 478.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 492.
+(Font)              <10> on input line 478.
 [1
 
 {c:/Users/accru/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -1766,12 +1766,12 @@ Here is how much of LuaTeX's memory you used:
  195397,1977958 words of node,token memory allocated
  2325 words of node memory still in use:
    31 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 1 glyph, 98 attribute, 244 glue_spec, 98 attribute_list, 3 write, 24 pdf_literal, 1 pdf_action, 24 pdf_colorstack nodes
-   avail lists: 1:8,2:2667,3:2025,4:341,5:1373,6:178,7:17628,8:83,9:2348,10:20,11:863
+   avail lists: 1:10,2:2643,3:1998,4:341,5:1375,6:166,7:17595,8:83,9:2309,10:20,11:872
  63520 multiletter control sequences out of 65536+600000
  81 fonts using 4123863 bytes
  85i,15n,95p,1163b,1544s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/Users/accru/AppData/Local/Microsoft/Windows/Fonts/Jost-Italic.ttf>{c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf><c:/Users/accru/AppData/Local/Microsoft/Windows/Fonts/Jost-Regular.ttf><c:/Users/accru/AppData/Local/Microsoft/Windows/Fonts/Jost-Bold.ttf><c:/Users/accru/AppData/Local/Microsoft/Windows/Fonts/Jost-BoldItalic.ttf><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmib10.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on McShane_CRSP-Poster.pdf (1 page, 1578596 bytes).
+Output written on McShane_CRSP-Poster.pdf (1 page, 1578541 bytes).
 
 PDF statistics: 185 PDF objects out of 1000 (max. 8388607)
  119 compressed objects within 2 object streams

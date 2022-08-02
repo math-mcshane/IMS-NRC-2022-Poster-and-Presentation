@@ -105,7 +105,7 @@ This poster was created using my revived version of the \texttt{posterdownLaTeX}
 
 \end{minipage}
 
-\vspace{-10mm}
+\vspace{-7mm}
 
 # Abstract
 
@@ -113,19 +113,19 @@ This poster was created using my revived version of the \texttt{posterdownLaTeX}
 
 If the Utah Jazz beat the Portland Trailblazers and the Trailblazers beat the Denver Nuggets, does that mean that the Jazz are better than the Nuggets, or could the Nuggets actually be better than the Jazz? To answer this question, we investigate the assumption of transitivity. We propose a novel linear model (CRSP) whose latent bilinear fixed effect allows us to estimate deviations from our transitive model (C). Additionally, we consider extensions. 
 
-\vspace{-3mm}
+\vspace{-2mm}
 
 # Paired Comparisons and (In)transitivity
 
 \begin{minipage}[]{.75\columnwidth}
 
-Classically \cite{Thu1927} $n$ objects are compared [teams compete] one pair at a time, until all $n \choose 2$ comparisons are made. Then, object [team] ratings are derived and subsequently ranks. First documented in 1283 to select a pope \cite{Llu1283}. $\;\;\;\;\mathbf{\xrightarrow{\hspace{2.5cm}}}$
+Classically \cite{Thu1927} $n$ objects are compared [teams compete] one pair at a time, until all $n \choose 2$ comparisons are made. Then, object [team] ratings are derived and subsequently ranks. First documented in 1283 to select a pope \cite{Llu1283}. $\;\;\;\mathbf{\xrightarrow{\hspace{2.5cm}}}$
 
 \end{minipage}
 \hfill \hfill
 \begin{minipage}{.215\columnwidth}
 
-\vspace{5pt}
+\vspace{15pt}
 ```{r, out.width="90%"}
 knitr::include_graphics("images/LlullExample.png")
 ```
@@ -137,23 +137,9 @@ knitr::include_graphics("images/LlullExample.png")
 
 \begin{figure}
 
-\begin{minipage}[]{.48\columnwidth}
+\textbf{Transitive Property of Inequality}: Let $a, b, c$ be real numbers (team ratings). If $a > b$ and $b > c$, then $a > c$.
 
-\textbf{Transitive Property of \\ Inequality}: 
-
-Let $a, b, c$ be real numbers (team ratings).
-
-If $a > b$ and $b > c$, then $a > c$.
-
-\end{minipage}
-\hfill \hfill
-\begin{minipage}{.48\columnwidth}
-
-\textbf{Weak Stochastic Transitive Property.}: 
-
-Let $A, B, C$ be teams. If $P(A \rightarrow B)$, $P(B \rightarrow C) > 0.5$, then $P(A \rightarrow C) > 0.5.$
-
-\end{minipage}
+\textbf{Weak Stochastic Transitivity Property}: Let $A, B, C$ be teams. If $P(A \rightarrow B)$, $P(B \rightarrow C) > 0.5$, then $P(A \rightarrow C) > 0.5.$
 
 \vspace{-3mm}
 
@@ -163,7 +149,7 @@ knitr::include_graphics("images/WSTransitivity.png")
 
 \vspace{-11mm}
 
-Every common paired comparisons model (Bradley-Terry, Elo, Trueskill, etc) assumes at least the WST Property \cite{McShane2019Intransitive}. 
+Every common paired comparisons model (Bradley-Terry, Elo, Glicko, Trueskill, etc) assumes at least the WST Property \cite{McShane2019Intransitive}. 
 
 \vspace{7mm}
 
@@ -227,7 +213,7 @@ $$\boldsymbol{T} = \left[ \begin{array}{rrr}
 \begin{minipage}{.20\columnwidth}
 
 \vspace{8pt}
-```{r, out.width="90%"}
+```{r, out.width="100%"}
 knitr::include_graphics("images/SPR.png")
 ```
 \end{minipage}

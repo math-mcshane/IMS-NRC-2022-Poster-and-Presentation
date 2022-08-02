@@ -162,13 +162,13 @@ We introduce a model (CRSP) that does allow intransitivity. For the following, a
 
 # Chain Model (Transitive)
 
-We want to model $y_{ij}$, the score of home team $i$ minus the score of away team $j$. We consider several models of the form $y_{ij} = \mu_{ij} +\varepsilon_{ij}$, where $\varepsilon_{ij}$ independent and $\sigma_{\varepsilon}$ constant. The first is the \textbf{Chain model} with fixed effect strength parameters $\alpha_i$ for team $i$ and home effect $h$, for the expected score differential $\mu_{ij}$ when team $i$ hosts team $j$: 
+We want to model $Y_{ij}$, the score of home team $i$ minus the score of away team $j$. We consider several models of the form $Y_{ij} = \mu_{ij} +\varepsilon_{ij}$, where $\varepsilon_{ij}$ independent and $\sigma_{\varepsilon}$ constant. The first is the \textbf{Chain model} with fixed effect strength parameters $\alpha_i$ for team $i$ and home effect $h$, for the expected score differential $\mu_{ij}$ when team $i$ hosts team $j$: 
 
 \vspace{-10pt}
 
 \begin{figure}
 
-$$\mu_{ij} = h + \alpha_i - \alpha_j$$
+$$\mu_{ij} = h + \alpha_i - \alpha_j.$$
 
 \vspace{-10pt}
 
@@ -176,11 +176,11 @@ Finding solutions for $\hat h$ and $\boldsymbol{\hat\alpha}$ is straight forward
 
 \vspace{-30pt}
 
-$$\hat{h} = ({\sqrt{2}n})^{-2}\boldsymbol{1}^T(\boldsymbol{Y} - \boldsymbol{Y}^T)\boldsymbol{1} = \bar{y}_{..}$$
+$$\hat{h} = ({\sqrt{2}n})^{-2}\boldsymbol{1}^T(\boldsymbol{Y} - \boldsymbol{Y}^T)\boldsymbol{1} = \bar{y}_{..},$$
 
 \vspace{-50pt}
 
-$$\hat{\alpha}_i = 2^{-1}(\bar{y}_{i.} - \bar{y}_{.i}) \Rightarrow \boldsymbol{\hat{\alpha}} = (2n)^{-1} \big[\boldsymbol{Y} - \boldsymbol{Y}^T \big] \boldsymbol{1}$$
+$$\hat{\alpha}_i = 2^{-1}(\bar{y}_{i.} - \bar{y}_{.i}) \Rightarrow \boldsymbol{\hat{\alpha}} = (2n)^{-1} \big[\boldsymbol{Y} - \boldsymbol{Y}^T \big] \boldsymbol{1}.$$
 \end{figure}
 \vspace{-35pt}
 
@@ -270,7 +270,7 @@ knitr::include_graphics("images/Chain_Graph.png")
 
 \vspace{-45pt}
 
-This is the chain model. Note that $\hat{\alpha}_{GSW} - \hat{\alpha}_{HOU} = ( \hat{\alpha}_{GSW} - \hat{\alpha}_{SAS}) + (\hat{\alpha}_{SAS} - \hat{\alpha}_{HOU}) = 6.34$. Now, we take the residuals, $\bm{C}$ and find the eigendecomposition of $\bm{CC}^T$. We get, for example, $\hat r_{GSW} = -3.40, \hat r_{SAS} = 0.86, \hat s_{GSW} = 0.29, \hat s_{SAS} = 1.10$. Then, if $h = 0$, $\mu_{SAS,GSW} = \hat \alpha_{SAS} - \hat \alpha_{GSW} + \hat r_{SAS}\hat s_{GSW} - \hat r_{GSW}\hat s_{SAS} = 0.62$. 
+This is the chain model. Note that $\hat{\alpha}_{GSW} - \hat{\alpha}_{HOU} = ( \hat{\alpha}_{GSW} - \hat{\alpha}_{SAS}) + (\hat{\alpha}_{SAS} - \hat{\alpha}_{HOU}) = 6.34$. Now, we take the residuals, $\bm{C}$, and find the eigendecomposition of $\bm{CC}^T$. We get, for example, $\hat r_{GSW} = -3.40, \hat r_{SAS} = 0.86, \hat s_{GSW} = 0.29, \hat s_{SAS} = 1.10$. Then, if $h = 0$, $\hat \mu_{SAS,GSW} = \hat \alpha_{SAS} - \hat \alpha_{GSW} + \hat r_{SAS}\hat s_{GSW} - \hat r_{GSW}\hat s_{SAS} = 0.62$. 
 
 
 \vspace{-30pt}

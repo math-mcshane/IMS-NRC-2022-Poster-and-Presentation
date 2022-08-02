@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.7.28)  2 AUG 2022 01:04
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.7.28)  2 AUG 2022 01:28
  restricted system commands enabled.
 **McShane_CRSP-Poster.tex
 (./McShane_CRSP-Poster.tex
@@ -1787,12 +1787,12 @@ Here is how much of LuaTeX's memory you used:
  195397,1977958 words of node,token memory allocated
  2325 words of node memory still in use:
    31 hlist, 2 vlist, 14 rule, 2 glue, 4 kern, 1 glyph, 98 attribute, 244 glue_spec, 98 attribute_list, 3 write, 24 pdf_literal, 1 pdf_action, 24 pdf_colorstack nodes
-   avail lists: 1:10,2:2695,3:2010,4:341,5:1391,6:166,7:17850,8:83,9:2375,10:20,11:887
+   avail lists: 1:4,2:2699,3:2010,4:341,5:1394,6:166,7:17865,8:83,9:2384,10:20,11:887
  66730 multiletter control sequences out of 65536+600000
  103 fonts using 5295507 bytes
  85i,15n,95p,1163b,1544s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/Users/accru/AppData/Local/Microsoft/Windows/Fonts/Jost-Italic.ttf>{c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Brands-Regular-400.otf><c:/Users/accru/AppData/Local/Microsoft/Windows/Fonts/Jost-Regular.ttf><c:/Users/accru/AppData/Local/Microsoft/Windows/Fonts/Jost-Bold.ttf><c:/Users/accru/AppData/Local/Microsoft/Windows/Fonts/Jost-BoldItalic.ttf><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmib10.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/accru/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on McShane_CRSP-Poster.pdf (1 page, 1987408 bytes).
+Output written on McShane_CRSP-Poster.pdf (1 page, 1987721 bytes).
 
 PDF statistics: 194 PDF objects out of 1000 (max. 8388607)
  123 compressed objects within 2 object streams

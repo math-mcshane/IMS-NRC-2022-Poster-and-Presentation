@@ -3,54 +3,53 @@
 title: "\\huge \\textbf{\\textit{Scissors beats Rock} \\Large \\&  other failures of Transitive Models using Paired Comparisons}"
 author: "\\contour{black}{\\textbf{Ryan P. A. McShane, Ph.D.}}"
 affiliation: "Former Visiting Assistant Professor of Statistics, Amherst College $\\;$ \\faTwitter  \\quad   \\@$\\text {\\underline{math\\_mcshane}}$ $\\;$ \\faGithub \\quad \\@$\\text{\\underline{math-mcshane}}$ $\\;$ \\vspace{-5mm}{\\includegraphics[width = 25pt]{images/Circular Triad.png}} \\quad $\\text{\\underline{ryanmcshane.com}}$"
-#----FONT STYLE----#
-font_size: "30pt" #sets '\normalsize' (sizes of the title and sections headings will adjust based on it)
 font_family: "palatino" # choose from typical latex fonts (example: "palatino")
-sectitle_textsize: "large" 
-body_textsize: "normalsize"
-bibliography_size: "scriptsize"
-bibliography_textsize: "scriptsize" #UNKNOWN
-titlebox_shape: "all"
-title_textsize: "normalsize"
-author_textsize: "LARGE"
-affiliation_textsize: "normalsize"
-titlebox_borderwidth: "4pt"
-ulmargin_size: "0pt"
-lrmargin_size: "0pt"
 
-#----COLOURS----#
+#----COLORS (Everything in hex)----#
 
-#Background/ Line Colours
-title_bgcol: "000000"  #Hex colour for background of poster title section (default is blue)
-titlebox_bgcol: "311a4d" # UNKNOWN
-titlebox_bordercol: "777777" #UNKNOWN
-body_bgcol: "FFFFFF" #UNKNOWN
-sectitle_bgcol: "5D3C85" #UNKNOWN
-sectitle_bordercol: "111111" #UNKNOWN
-sectitle_textcol: "FFFFFF" #UNKNOWN
-poster_bgcol: "ffffff" #colour of the poster main background
-cite_col: "005500" #colour of ciation elements
-url_col: "002c6b" #colour of url links
-link_col: "002c6b" #colour of other links within the poster
-columnline_col: "000000" #colour 
-header_bgcol: "008080"
+#Background/ Line colors
+titlebox_bgcol: "311a4d" # Background color of title box
+titlebox_bordercol: "777777" # Line around title box
+body_bgcol: "FFFFFF" # Color behind main body of poster
+sectitle_bgcol: "5D3C85" # Color of section titles
+sectitle_bordercol: "111111" # Line color around section title boxes
+columnline_col: "000000" #color of line between columns
 
-#Text Colours
-title_textcol: "FFFFFF" #colour of title text
-author_textcol: "ffffff" # Colour of author text
-affiliation_textcol: "FFFFFF" # Colour of affiliation text
-body_textcol: "000000" # Colour of main text in the body of poster
-header_textcol: "690F8C" # Colour of the poster header titles
-footnote_textcol: "000000" # Colour of footnote text if used
+#Text colors
+title_textcol: "FFFFFF" #color of title text
+author_textcol: "ffffff" # Color of author text
+affiliation_textcol: "FFFFFF" # Color of affiliation text
+body_textcol: "000000" # Color of main text in the body of poster
+header_textcol: "690F8C" # Color of the poster header titles
+sectitle_textcol: "FFFFFF" # Color of text in section titles
+footnote_textcol: "000000" # Color of footnote text if used
+cite_col: "005500" #color of ciation elements
+url_col: "002c6b" #color of url links
+link_col: "002c6b" #color of other links within the poster
+
+#----TEXT SIZES----#
+font_size: "30pt" #sets '\normalsize' (sizes of the title and sections headings will adjust based on it)
+sectitle_textsize: "large" # Change the font size of the section titles
+body_textsize: "normalsize" # Change the font size of your body
+bibliography_textsize: "scriptsize" # Change the font size of the bibliography
+title_textsize: "normalsize" # Title text size
+author_textsize: "LARGE" # Author text size
+affiliation_textsize: "normalsize" # Affiliation text size
+
 
 #----POSTER SIZE & COLUMN FORMATTING----#
 poster_height: "24in" # height in inches of poster
 poster_width: "36in" # width in inches of poster
 column_numbers: 3 # Number of columns that the poster has
 column_margins: "18mm" # Margin spacing for columns
-columnline_width: "2pt" #UNKNOWN
-sectitle_borderwidth: "2pt" #UNKNOWN
-sectitle_boxshape: "uphill"
+columnline_width: "2pt" # Width of line separating columns
+titlebox_shape: "all" # The box shape around the title (options from `tcolorbox`)
+titlebox_borderwidth: "4pt" # Line thickness around title
+sectitle_borderwidth: "2pt" # Line thickness on title 
+sectitle_boxshape: "uphill" # Shape of section title box (from `tcolorbox`)
+ulmargin_size: "0pt" # Margin at bottom of poster
+lrmargin_size: "0pt" # Margin on left and right of poster
+
 
 #----LOGO----#
 logoleft_name: "logo/AmherstCollege-Seal_WhiteRGB.pdf"

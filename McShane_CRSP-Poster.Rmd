@@ -5,6 +5,14 @@ author: "\\contour{black}{\\textbf{Ryan P. A. McShane, Ph.D.}}"
 affiliation: "Former Visiting Assistant Professor of Statistics, Amherst College $\\;$ \\faTwitter  \\quad   \\@$\\text {\\underline{math\\_mcshane}}$ $\\;$ \\faGithub \\quad \\@$\\text{\\underline{math-mcshane}}$ $\\;$ \\vspace{-5mm}{\\includegraphics[width = 25pt]{images/Circular Triad.png}} \\quad $\\text{\\underline{ryanmcshane.com}}$"
 font_family: "palatino" # choose from typical latex fonts (example: "palatino")
 
+#----OTHER----#
+bibliography: references # name of the .bib file used for referencing
+output: 
+  posterdownLaTeX::posterdown_latex: 
+    pandoc_args: "--highlight-style=knit-files/mcshanepdf.theme"
+    latex_engine: lualatex        # Only needed for custom fonts
+csl: knit-files/ASA-McShane.csl
+
 #----COLORS (Everything in hex)----#
 
 #Background/ Line colors
@@ -29,12 +37,12 @@ link_col: "002c6b" #color of other links within the poster
 
 #----TEXT SIZES----#
 font_size: "30pt" #sets '\normalsize' (sizes of the title and sections headings will adjust based on it)
-sectitle_textsize: "large" # Change the font size of the section titles
-body_textsize: "normalsize" # Change the font size of your body
-bibliography_textsize: "scriptsize" # Change the font size of the bibliography
 title_textsize: "normalsize" # Title text size
 author_textsize: "LARGE" # Author text size
 affiliation_textsize: "normalsize" # Affiliation text size
+sectitle_textsize: "large" # Change the font size of the section titles
+body_textsize: "normalsize" # Change the font size of your body
+bibliography_textsize: "scriptsize" # Change the font size of the bibliography
 
 
 #----POSTER SIZE & COLUMN FORMATTING----#
@@ -60,14 +68,6 @@ logoright_name: "logo/AmherstCollege-Seal_WhiteRGB.pdf"
 logoright_width: "2.8in"
 logoright_xshift: "-.55in"
 logoright_yshift: ".55in"
-
-#----OTHER----#
-bibliography: references # name of the .bib file used for referencing
-output: 
-  posterdownLaTeX::posterdown_latex: 
-    pandoc_args: "--highlight-style=knit-files/mcshanepdf.theme"
-    latex_engine: lualatex        # Only needed for custom fonts
-csl: knit-files/ASA-McShane.csl
 
 header-includes: 
  - \usepackage[outline]{contour}
